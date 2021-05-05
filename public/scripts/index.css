@@ -1,0 +1,140 @@
+body{
+    background-color:#7fb2f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divContainer{
+    width:800px;
+    height:500px;
+    margin:0 auto;
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divPerfil{
+    background-color:#536dfe;
+    width:300px;
+    border-radius:40px 0px 0px 40px;
+}
+
+.divSalas{
+    background-color: #ffffff;
+    width:440px;
+    border-radius:0px 40px 40px 0px;
+    padding:30px;
+}
+
+.divForm{
+    width:200px;
+    margin:0 auto;
+    position:relative;
+    top:30px;
+}
+.txtInput{
+    padding:10px;
+    
+    font-size:15px;
+    background: rgba(255,255,255,0);
+    border:none;
+    border-bottom:1px solid #ffffff;
+    color:#ffffff;
+    width:200px;
+    margin-bottom:20px;
+}
+
+.txtInput::placeholder{
+    color:#ffffff;
+}
+
+#txtCor{
+    width:60px;
+    height:60px;
+    border:none;
+    position:relative;
+    margin:0 auto;
+}
+
+.divForm > h1{
+    color:#ffffff;
+}
+
+h1{
+    color:#536dfe;
+}
+
+.divListSalas{
+    position:relative;
+    top:10px;
+}
+.divListSalas > ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.divListSalas li{
+    background-color:#536dfe;
+    color:#ffffff;
+    padding:10px;
+    margin:10px;
+    padding-left:30px;
+    border-radius:20px;
+}
+
+
+.divCriarSala{
+    position:absolute;
+    bottom:0px;
+}
+
+.divCriarSala .txtInput{
+    color:#536dfe;
+    border-bottom: 1px solid #536dfe;
+    width:340px;
+}
+
+
+.divCriarSala .txtInput::placeholder{
+    color:#536dfe;
+}
+
+
+.btnCriarSala{
+    background-color:#536dfe;
+    color:#ffffff;
+    border:0px;
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    font-size:15px;
+}
+
+
+.divContainerMsg{
+    width:740px;
+    height:440px;
+    margin:0 auto;
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:#ffffff;
+    border-radius:40px;
+    padding:30px;
+}
+
+#txtMensagem{
+    width:650px;
+}
+
+.divMensagens{
+    width: 100%;
+    height: 359px;
+    background-color: aquamarine;
+    position: relative;
+    top: 44px;
+    margin: 0;
+    padding: 0;
+    left: 0px;
+}

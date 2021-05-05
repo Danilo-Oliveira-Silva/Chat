@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Chat online</title>
+        <link href="scripts/index.css" media="all" rel="stylesheet" type="text/css" />
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    </head>
+    <body>
+        
+        <div class="divContainer" id="divTelaInicio" style="display: none;">
+          
+                <div class="divPerfil telaInicio">
+                
+                    <div class="divForm">
+                        <h1>Bate Papo</h1>
+                        <br /> <br />
+                        <input type="text" class="txtInput" id="txtNome" placeholder="Nome" />
+                        <input type="text" class="txtInput" id="txtIdade" placeholder="Idade" />
+                        <br />
+                   
+                        <input type="color" class="txtInput" id="txtCor" value="#122071" />
+                        <br />
+                        
+                    </div>
+                    
+
+                </div>
+                <div class="divSalas telaInicio">
+                    <h1>Salas</h1>
+                    
+                    <div class="divListSalas">
+                        <ul id="listaSalas">
+                        </ul>
+                    </div>
+
+                    <div class="divCriarSala">
+                        <input type="text" class="txtInput" id="txtCriarSala" placeholder="Criar minha sala" />
+                        <button class="btnCriarSala" onclick="CriarSala()">Criar</button>
+                    </div>
+                </div>
+      
+        </div>
+
+        <div class="divContainerMsg">
+            <h1 style="margin:0;">Sala</h1>
+            <div class="divMensagens"></div><br />
+            <div class="divCriarSala">
+                <input type="text" class="txtInput" id="txtMensagem" placeholder="Digite aqui sua mensagem">
+                <button class="btnCriarSala" onclick="EnviarMsg()">Enviar</button>
+            </div>
+        </div>
+
+        <script src='/socket.io/socket.io.js'></script>
+        <script src='/scripts/index.js'></script>
+        
+        
+
+    </body>
+</html>
