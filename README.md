@@ -19,7 +19,7 @@
 <h3>Pré-requisitos</h3>
 <p>Antes de iniciar, você precisará ter instalado o [Git](https://git.scm.com), [Node.JS](https://nodejs.org/en/) e um editor de código. Este projeto foi criado em um ambiente Windows com o [Visual Studio Code](https://code.visualstudio.com/)</P>
 
-<h3>Rodando o back end<h3>
+<h3>Rodando o back end</h3>
 
 <p>Clone este repositório ou faça o download do Zip</p>
 $ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
