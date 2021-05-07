@@ -14,11 +14,11 @@
 <p>Sistema de chat com opção de criação de salas de chat, input de nome, idade e escolha de cor no chat.</p>
 <p>Este projeto não utiliza banco de dados e não possui CSS customizado para aplicativos móveis, sendo uma demo da utilização do socket.io em projetos utilizando Node.JS em server-side e client-side</p>
 
-<h3>Projeto finalizado</h3>
+<h2>Projeto finalizado</h2>
 
 ![Alt text](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/chat-print-geral.png "Print")
 
-### 🛠 Tecnologias
+<h2>🛠 Tecnologias</h2>
 - [Node.js](https://nodejs.org/en/)
 - [Socket.io](https://socket.io/)
 
@@ -29,7 +29,7 @@
 
 ```node
 //Clone este repositório ou faça o download do Zip
-$ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
+$ git clone https://github.com/Danilo-Oliveira-Silva/Chat
 
 //Acesse a pasta Chat no terminal ou cmd
 $ cd Chat
@@ -42,7 +42,7 @@ $ node server.js
 <h2> Usando o front-end</h2>
 
 <p> Acesse no seu browser o endereço</p>
-http://localhost:3000
+<a href="http://localhost:3000">http://localhost:3000</a>
 
 <h2>Autor</h2>
 <p>Danilo Silva</p>
@@ -52,6 +52,6 @@ http://localhost:3000
 
 
 <h2>Licença</h2>
-<p> Este projeto está sob a licença [MIT](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/LICENSE)</P>
+<p> Este projeto está sob a licença <a href="https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/LICENSE">MIT</a></P>
 <p> Desenvolvido por Danilo Silva para a Comunidade</p>
 
