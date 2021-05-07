@@ -19,11 +19,11 @@
 ![Alt text](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/chat-print-geral.png "Print")
 
 <h2>🛠 Tecnologias</h2>
-- [Node.js](https://nodejs.org/en/)
-- [Socket.io](https://socket.io/)
+- <a href="https://nodejs.org/en/">Node.JS</a>
+- <a href="https://socket.io/">Socket.IO</a>
 
 <h2>Pré-requisitos</h2>
-<p>Antes de iniciar, você precisará ter instalado o [Git](https://git.scm.com), [Node.JS](https://nodejs.org/en/) e um editor de código. Este projeto foi criado em um ambiente Windows com o [Visual Studio Code](https://code.visualstudio.com/)</P>
+<p>Antes de iniciar, você precisará ter instalado o <a href="https://git.scm.com">Git</a>, <a href="https://nodejs.org/en/">Node.JS</a> e um editor de código. Este projeto foi criado em um ambiente Windows com o <a href="https://code.visualstudio.com/">Visual Studio Code</a></P>
 
 <h2>Rodando o back end</h2>
 
