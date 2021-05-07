@@ -19,7 +19,7 @@
 ![Alt text](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/chat-print-geral.png "Print")
 
 <h2>🛠 Tecnologias</h2>
-- <a href="https://nodejs.org/en/">Node.JS</a>
+- <a href="https://nodejs.org/en/">Node.JS</a><br />
 - <a href="https://socket.io/">Socket.IO</a>
 
 <h2>Pré-requisitos</h2>
