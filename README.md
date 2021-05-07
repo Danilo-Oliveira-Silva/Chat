@@ -16,11 +16,18 @@
 
 <h3>Projeto finalizado</h3>
 
-<h3>Pré-requisitos</h3>
+![Alt text](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/chat-print-geral.png "Print")
+
+### 🛠 Tecnologias
+- [Node.js](https://nodejs.org/en/)
+- [Socket.io](https://socket.io/)
+
+<h2>Pré-requisitos</h2>
 <p>Antes de iniciar, você precisará ter instalado o [Git](https://git.scm.com), [Node.JS](https://nodejs.org/en/) e um editor de código. Este projeto foi criado em um ambiente Windows com o [Visual Studio Code](https://code.visualstudio.com/)</P>
 
-<h3>Rodando o back end</h3>
+<h2>Rodando o back end</h2>
 
+'''node
 <p>Clone este repositório ou faça o download do Zip</p>
 $ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
 
@@ -30,11 +37,21 @@ $ cd Chat
 <p>Execute o server</p>
 $ node server.js
 
-<h3> Usando o front-end</h3>
+'''
+
+<h2> Usando o front-end</h2>
 
 <p> Acesse no seu browser o endereço</p>
 http://localhost:3000
 
-### 🛠 Tecnologias
-- [Node.js](https://nodejs.org/en/)
-- [Socket.io](https://socket.io/)
+<h2>Autor</h2>
+<p>Danilo Silva</p>
+<p>Engenheiro de Sistemas na Alfahard</p>
+<a href="https://www.linkedin.com/in/danilo-silva-44518956/"><img src="https://img.shields.io/static/v1?label=&message=LINKEDIN&color=0A66C2&style=for-the-badge&logo=linkedin" /></a>
+<a href="mailto:danilo.o.s@hotmail.com"><img src="https://img.shields.io/static/v1?label=&message=E-mail&color=007722&style=for-the-badge&logo=mail.ru" /></a>
+
+
+<h2>Licença</h2>
+<p> Este projeto está sob a licença [MIT](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/LICENSE)</P>
+<p> Desenvolvido por Danilo Silva para a Comunidade</p>
+
