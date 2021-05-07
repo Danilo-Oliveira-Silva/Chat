@@ -27,7 +27,7 @@
 
 <h2>Rodando o back end</h2>
 
-'''node
+```node
 <p>Clone este repositório ou faça o download do Zip</p>
 $ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
 
@@ -37,7 +37,7 @@ $ cd Chat
 <p>Execute o server</p>
 $ node server.js
 
-'''
+```
 
 <h2> Usando o front-end</h2>
 
