@@ -14,26 +14,26 @@
 <p>Sistema de chat com opção de criação de salas de chat, input de nome, idade e escolha de cor no chat.</p>
 <p>Este projeto não utiliza banco de dados e não possui CSS customizado para aplicativos móveis, sendo uma demo da utilização do socket.io em projetos utilizando Node.JS em server-side e client-side</p>
 
-<h5>Projeto finalizado</h5>
+<h3>Projeto finalizado</h3>
 
-<h4>Pré-requisitos</h4>
+<h3>Pré-requisitos</h3>
 <p>Antes de iniciar, você precisará ter instalado o [Git](https://git.scm.com), [Node.JS](https://nodejs.org/en/) e um editor de código. Este projeto foi criado em um ambiente Windows com o [Visual Studio Code](https://code.visualstudio.com/)</P>
 
-<h5>Rodando o back end<h5>
+<h3>Rodando o back end<h3>
 
-# Clone este repositório ou faça o download do Zip
+<p>Clone este repositório ou faça o download do Zip</p>
 $ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
 
-# Acesse a pasta Chat no terminal ou cmd
+<p> Acesse a pasta Chat no terminal ou cmd</p>
 $ cd Chat
 
-# Execute o server
+<p>Execute o server</p>
 $ node server.js
 
-<h5> Usando o front-end</h5>
+<h3> Usando o front-end</h3>
 
-# Acesse no seu browser o endereço
-$ http://localhost:3000
+<p> Acesse no seu browser o endereço</p>
+http://localhost:3000
 
 ### 🛠 Tecnologias
 - [Node.js](https://nodejs.org/en/)
