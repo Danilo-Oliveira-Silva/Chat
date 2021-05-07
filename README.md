@@ -28,13 +28,13 @@
 <h2>Rodando o back end</h2>
 
 ```node
-<p>Clone este repositório ou faça o download do Zip</p>
+//Clone este repositório ou faça o download do Zip
 $ git clone <https://github.com/Danilo-Oliveira-Silva/Chat>
 
-<p> Acesse a pasta Chat no terminal ou cmd</p>
+//Acesse a pasta Chat no terminal ou cmd
 $ cd Chat
 
-<p>Execute o server</p>
+//Execute o server
 $ node server.js
 
 ```
