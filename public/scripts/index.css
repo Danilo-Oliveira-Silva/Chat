@@ -111,6 +111,7 @@ h1{
 }
 
 
+
 .divContainerMsg{
     width:740px;
     height:440px;
@@ -124,17 +125,70 @@ h1{
     padding:30px;
 }
 
+
+.divContainerMsgTopo{
+    width:730px;
+    height:80px;
+    
+    position:absolute;
+}
 #txtMensagem{
     width:650px;
 }
 
 .divMensagens{
-    width: 100%;
-    height: 359px;
-    background-color: aquamarine;
-    position: relative;
-    top: 44px;
+    width: 730px;
+    height: 350px;
+    
+    position: absolute;
     margin: 0;
     padding: 0;
-    left: 0px;
+    top:80px;
+    overflow:auto;
 }
+
+.divMensagem{
+    font-size:12px;
+    margin:8px;
+    padding:8px;
+    background-color:#ececec;
+    border-radius:10px;
+}
+
+.msgNome{
+    margin-left:5px;
+    margin-right:5px;
+    color:darkblue;
+    font-weight:bold;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #eeeeee; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #536dfe; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #536dfe; 
+  }
+
+  .divContainerBtnFechar{
+      float:right;
+      position:relative;
+      top:-30px;
+      color:#536dfe;
+      font-weight:bold;
+  }

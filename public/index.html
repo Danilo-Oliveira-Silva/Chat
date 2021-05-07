@@ -6,7 +6,7 @@
     </head>
     <body>
         
-        <div class="divContainer" id="divTelaInicio" style="display: none;">
+        <div class="divContainer" id="divTelaInicio">
           
                 <div class="divPerfil telaInicio">
                 
@@ -40,9 +40,14 @@
       
         </div>
 
-        <div class="divContainerMsg">
-            <h1 style="margin:0;">Sala</h1>
-            <div class="divMensagens"></div><br />
+        <div id="divTelaMensagens" class="divContainerMsg" style="display:none;">
+            <div class="divContainerMsgTopo">
+                <h1 id="SalaNome" style="padding:0; margin:0px;">Chat</h1>
+                <span class="divContainerBtnFechar" onclick="SairSala()">X</span>
+            </div>  
+            <div class="divMensagens" id="divMensagens">
+
+            </div><br />
             <div class="divCriarSala">
                 <input type="text" class="txtInput" id="txtMensagem" placeholder="Digite aqui sua mensagem">
                 <button class="btnCriarSala" onclick="EnviarMsg()">Enviar</button>
