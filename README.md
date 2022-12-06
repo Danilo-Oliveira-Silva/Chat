@@ -46,7 +46,7 @@ $ node server.js
 
 <h2>Autor</h2>
 <p>Danilo Silva</p>
-<p>Engenheiro de Sistemas na Alfahard</p>
+<p>Engenheiro de Sistemas e Desenvolvedor Back-end</p>
 <a href="https://www.linkedin.com/in/danilo-silva-44518956/"><img src="https://img.shields.io/static/v1?label=&message=LINKEDIN&color=0A66C2&style=for-the-badge&logo=linkedin" /></a>
 <a href="mailto:danilo.o.s@hotmail.com"><img src="https://img.shields.io/static/v1?label=&message=E-mail&color=007722&style=for-the-badge&logo=mail.ru" /></a>
 
