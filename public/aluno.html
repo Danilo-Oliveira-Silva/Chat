@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Aluno</title>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    </head>
+    <body>
+        <h1>Aluno</h1>
+        <input type="text" id="txtNome" placeholder="Nome" />
+        <input type="text" id="txtCodigo" placeholder="Código" />
+        <button id="btnEntrar" onclick="EntrarNaSala()">Entrar</button>
+        
+
+        <table id="tableQuestion">
+            <tr><td id="tdQuestion"></td></tr>
+            <tr><td id="tdRespA"></td></tr>
+            <tr><td id="tdRespB"></td></tr>
+            <tr><td id="tdRespC"></td></tr>
+            <tr><td id="tdRespD"></td></tr>
+        </table>
+        
+        <script src='/socket.io/socket.io.js'></script>
+        <script src='/scripts/aluno.js'></script>
+    </body>
+</html>

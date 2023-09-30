@@ -17,8 +17,15 @@ io.sockets.on('connection', Room.listen);
 io.sockets.on('error', e => console.log(e));
 
 app.use(express.static(__dirname + '/public'));
-app.get("/",function(req, res){
-    res.sendFile('${__dirname}/public/index.html');
+
+app.get("/professor",function(req, res){
+    res.sendFile(__dirname + '/public/prof.html');
 });
+
+app.get("/aluno",function(req, res){
+    res.sendFile(__dirname + '/public/aluno.html');
+});
+
+
 
 server.listen(port, () => console.log("Chat online"));

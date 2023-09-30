@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Prof</title>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    </head>
+    <body>
+        <h1>Prof</h1>
+        <h1 id="divCodigo"></h1>
+
+        <table id="tableAlunos" style="border:1px solid #000000">
+            <tr><th>Aluno</th></tr>
+        </table>
+
+        <button onclick="IniciarJogo()">Iniciar Jogo</button>
+
+        <table id="tableQuestion">
+            <tr><td id="tdQuestion"></td></tr>
+            <tr><td id="tdRespA"></td></tr>
+            <tr><td id="tdRespB"></td></tr>
+            <tr><td id="tdRespC"></td></tr>
+            <tr><td id="tdRespD"></td></tr>
+        </table>
+
+        <script src='/socket.io/socket.io.js'></script>
+        <script src='/scripts/prof.js'></script>
+    </body>
+</html>
