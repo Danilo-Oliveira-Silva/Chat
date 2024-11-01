@@ -1,4 +1,4 @@
-<h1 align="center">Chat em Socket.IO</h1>
+<h1 align="center">Socket.IO Chat</h1>
 
 <table border=0>
 <tr>
@@ -11,47 +11,46 @@
 
 <p>Chat online em NodeJS e Socket.IO</p>
 
-<p>Sistema de chat com opção de criação de salas de chat, input de nome, idade e escolha de cor no chat.</p>
-<p>Este projeto não utiliza banco de dados e não possui CSS customizado para aplicativos móveis, sendo uma demo da utilização do socket.io em projetos utilizando Node.JS em server-side e client-side</p>
+<p>Chat system with the functionality of creating chat rooms, inputting names, ages and choosing colors in the chat.</p>
+<p>This project does not use a database and does not have custom CSS for mobile applications, being a demo of the use of socket.io in projects using Node.JS on server-side and client-side.</p>
 
-<h2>Projeto finalizado</h2>
+<h2>Working</h2>
 
 ![Alt text](https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/chat-print-geral.png "Print")
 
-<h2>🛠 Tecnologias</h2>
+<h2>🛠 Stacks</h2>
 - <a href="https://nodejs.org/en/">Node.JS</a><br />
 - <a href="https://socket.io/">Socket.IO</a>
 
-<h2>Pré-requisitos</h2>
-<p>Antes de iniciar, você precisará ter instalado o <a href="https://git.scm.com">Git</a>, <a href="https://nodejs.org/en/">Node.JS</a> e um editor de código. Este projeto foi criado em um ambiente Windows com o <a href="https://code.visualstudio.com/">Visual Studio Code</a></P>
-
-<h2>Rodando o back end</h2>
+<h2>Getting Started</h2>
 
 ```node
-//Clone este repositório ou faça o download do Zip
+//Repo Clone
 $ git clone https://github.com/Danilo-Oliveira-Silva/Chat
 
-//Acesse a pasta Chat no terminal ou cmd
+//Get into directory
 $ cd Chat
 
-//Execute o server
+//Run Server
 $ node server.js
 
 ```
 
-<h2> Usando o front-end</h2>
+<h2>Usage</h2>
 
-<p> Acesse no seu browser o endereço</p>
+<p> Avaliable by address</p>
 <a href="http://localhost:3000">http://localhost:3000</a>
 
-<h2>Autor</h2>
-<p>Danilo Silva</p>
-<p>Engenheiro de Sistemas e Desenvolvedor Back-end</p>
-<a href="https://www.linkedin.com/in/danilo-silva-44518956/"><img src="https://img.shields.io/static/v1?label=&message=LINKEDIN&color=0A66C2&style=for-the-badge&logo=linkedin" /></a>
-<a href="mailto:danilo.o.s@hotmail.com"><img src="https://img.shields.io/static/v1?label=&message=E-mail&color=007722&style=for-the-badge&logo=mail.ru" /></a>
+<h2>Contact</h2>
 
+Danilo Silva
 
-<h2>Licença</h2>
-<p> Este projeto está sob a licença <a href="https://github.com/Danilo-Oliveira-Silva/Chat/blob/main/LICENSE">MIT</a></P>
-<p> Desenvolvido por Danilo Silva para a Comunidade</p>
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilodevs/)
+[![website](https://img.shields.io/badge/website-580ea1?style=for-the-badge&logo=twitter&logoColor=white)](https://www.iamdanilo.com/)
+[![bluesky](https://img.shields.io/badge/bluesky-1DA1F2?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/danilodev.bsky.social)
+[![email](https://img.shields.io/static/v1?label=&message=E-mail&color=007722&style=for-the-badge&logo=mail.ru)](mailto:danilo.o.s@hotmail.com)
+[![devto](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/danilosilva)
+
+<h2>License</h2>
+Distributed under the MIT License.
 
